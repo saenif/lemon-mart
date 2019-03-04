@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-page-not-found',
   template: `
     <p>
-      page-not-found works!
+      This page doesn't exist. Go back to <a routerLink="/home">home</a>
     </p>
   `,
   styles: []
