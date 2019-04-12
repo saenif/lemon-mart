@@ -8,14 +8,12 @@ import { ReceiptLookupComponent } from './receipt-lookup/receipt-lookup.componen
 
 const routes: Routes = [
   {
-    path: '',
-    component: ManagerComponent,
+    path: '', component: ManagerComponent,
     children: [
       { path: '', redirectTo: '/manager/home', pathMatch: 'full' },
       { path: 'home', component: ManagerHomeComponent },
       { path: 'users', component: UserMangementComponent },
       { path: 'receipts', component: ReceiptLookupComponent },
-
     ]
   }
 ];
