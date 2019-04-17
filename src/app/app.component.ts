@@ -20,6 +20,4 @@ import { Component } from '@angular/core';
   `,
   styles: []
 })
-export class AppComponent {
-  title = 'lemon-mart';
-}
+export class AppComponent {}
